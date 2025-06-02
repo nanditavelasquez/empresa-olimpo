@@ -1,7 +1,7 @@
 # Olimpo Innova
 
 <div align="center">
-   <img src="IMG/pagina-inicio.jpg" width="582" height="613">
+   <img src="IMG/pagina-olimpo.jpg" width="582" height="613">
 </div>
 
 
