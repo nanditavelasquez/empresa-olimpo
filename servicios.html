@@ -9,6 +9,53 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+
+    .banner-servicios {
+    background: linear-gradient(90deg, #144C87, #4a5fa1);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+  }
+
+  .contenido-banner {
+    text-align: center;
+  }
+
+  .typewriter-text {
+    font-size: 2rem;
+    border-right: 2px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 7s steps(40, end) forwards, blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    50% { border-color: transparent; }
+  }
+
+    .btn-servicio {
+background-color: #273171;
+color: #fff;
+padding: 10px 25px;
+border-radius: 30px;
+text-decoration: none;
+transition: background 0.3s;
+}
+
+.btn-servicio:hover {
+background-color: #1a2240;
+}
+</style>
 </head>
 
 <body>
@@ -19,9 +66,15 @@
         <ul class="nav-links">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
-            <li><a href="contacto.html">Contáctanos</a></li>
         </ul>
     </nav>
+
+    <!-- Banner con efecto máquina de escribir -->
+<section class="banner-servicios">
+  <div class="contenido-banner">
+    <h1 class="typewriter-text"></h1>
+  </div>
+</section>
 
     <section class="servicios">
         <h2>Nuestros Servicios</h2>
@@ -39,6 +92,9 @@
                         <li>Python</li>
                         <li>Node.js</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#comunicacion" class="btn-servicio">Ver más</a>
             </div>
 
             
@@ -53,6 +109,9 @@
                         <li>R</li>
                         <li>SQL</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#bigdata" class="btn-servicio">Ver más</a>
             </div>
             
             <div class="tarjeta">
@@ -67,6 +126,9 @@
                         <li>Jenkins</li>
                         <li>AWS</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#infraestructura" class="btn-servicio">Ver más</a>
             </div>
 
             
@@ -83,6 +145,9 @@
                         <li>React.js</li>
                         <li>Vue.js</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#desarrolloweb" class="btn-servicio">Ver más</a>
                 </div>
 
             
@@ -99,6 +164,9 @@
                         <li>Swift</li>
                         <li>Kotlin</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#apps" class="btn-servicio">Ver más</a>
                 </div>
 
 
@@ -115,6 +183,9 @@
                         <li>C#</li>
                         <li>Blender</li>
                     </ul>
+                    <br>
+                    <br>
+                <a href="#tecnologias" class="btn-servicio">Ver más</a>
                 </div>
             </div>
         </section>
@@ -154,6 +225,16 @@
     <footer>
         <p>&copy; 2025 Olimpo Innova. Todos los derechos reservados.</p>
     </footer>
+
+    <script>
+  const texto = "Transformamos ideas en soluciones digitales.";
+  const typewriter = document.querySelector('.typewriter-text');
+
+  // Puedes usar una pausa para el efecto natural
+  setTimeout(() => {
+    typewriter.textContent = texto;
+  }, 500);
+</script>
 </body>
 
 </html>

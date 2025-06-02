@@ -24,9 +24,10 @@
 mi-pagina-web/
 ├── index.html       // Página principal
 ├── css/             // Hojas de estilo CSS
-│   └── style.css    // Archivo principal de estilos
+│   └── estilos.css    // Archivo de estilos
 ├── js/              // Archivos JavaScript
-│   └── script.js    // Archivo principal de scripts
+│   └── particles-config.js    // Archivo de scripts para el banner
+│   └── reproducir-video.js    // Archivo de scripts para reproducir los videos
 
 
 ## Instalación
