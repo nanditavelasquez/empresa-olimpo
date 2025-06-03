@@ -1,7 +1,7 @@
 # Olimpo Innova
 
 <div align="center">
-   <img src="IMG/pagina-inicio.jpg" width="582" height="613">
+   <img src="IMG/pagina-olimpo.jpg" width="582" height="613">
 </div>
 
 
@@ -16,7 +16,7 @@
 
 * **HTML:** Estructura y contenido de la página.
 * **CSS:** Estilos y diseño visual de la página.
-* **JavaScript:** Para la reproducción automatica y también para reproducir el siguiente video cuando finalice el primero.
+* **JavaScript:** Para la reproducción automatica y también para reproducir el siguiente video.
 
 ## Estructura de carpetas
 
